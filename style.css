@@ -93,6 +93,7 @@
     color: #396BB2;
     text-decoration: underline #396BB2;
     font-weight: bold;
+    margin-bottom:50px;
 }
 
 .content2{
@@ -125,7 +126,6 @@
 }
 
 /*Portfolio Section*/
-
 .intro {
     font-size: 16px;
     max-width: 500px;
@@ -148,6 +148,7 @@
     height: 280px;
     position: relative;
     overflow: hidden;
+    margin: 5px 20px;
 }
 
 .item .cover {
@@ -155,6 +156,7 @@
     top: 0;
     left: 0;
     width: 100%;
+    padding: 30px;
     height: 100%;
     background-color: rgba(70, 129, 218, 0.75);
     transition: opacity 0.15s ease-in;
@@ -195,4 +197,38 @@
 
 .social a:hover {
     opacity: 1;
+}
+
+/*Form section*/
+.form{
+    justify-content: center;
+    text-align: center;
+}
+
+.text{
+    margin: 10px 250px;
+}
+
+.btn-reset{
+    color: #B02525;
+}
+
+.btn-reset:hover{
+    background-color: #B02525;
+    color: #fff;
+}
+@media (max-width: 400px){
+    .text{
+        margin: 10px 20px;
+    }
+}
+
+/*Footer*/
+.bg{
+    background-color: #0E2431;
+}
+
+footer{
+    margin-top: 30px;
+    padding: 40px 30px 0 30px;
 }
