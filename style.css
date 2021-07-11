@@ -136,6 +136,10 @@
         justify-content: center;
     }
 
+    .content h1{
+        font-size: 45px;
+    }
+
     .top_section {
         display: flex;
         flex-flow: column-reverse;
@@ -193,12 +197,10 @@
     position: relative;
 }
 
-
-
 @media (max-width: 800px) {
     .tech-image {
         margin: 2px auto;
-        width: 20%;
+        width: 50%;
     }
 }
 
