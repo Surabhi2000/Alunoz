@@ -179,88 +179,52 @@
 
 /*Technologies Section*/
 .tech-image {
-    margin: 2px auto;
+    margin: 5px auto;
     cursor: pointer;
-    display: flex;
-    flex-direction: column;
+    height: 150px;
+    padding: 10px;
 }
 
+.tech-image:hover {
+    transform: translate(10px,10px);
+}
+
+.tech-text {
+    position: relative;
+}
+
+
+
 @media (max-width: 800px) {
-    .reserve {
-        flex-direction: column;
+    .tech-image {
+        margin: 2px auto;
+        width: 20%;
     }
 }
 
 
 @media (max-width: 400px) {
-    .reserve {
-        display: flex;
-        flex-direction: column;
+    .tech-image {
+        margin: 2px auto;
+        width: 30%;
     }
 }
 
 /*Portfolio Section*/
-.item {
-    margin-bottom: 2px;
+.carousel-inner{
+    padding: 0 40px 80px 40px;
 }
 
-.item .box {
-    text-align: center;
-    background-repeat: no-repeat;
-    background-size: cover;
-    background-position: center;
-    height: 280px;
-    position: relative;
-    overflow: hidden;
-    margin: 5px 20px;
+.carousel-control-next,
+.carousel-control-prev,
+.carousel-indicators {
+    filter: invert(100%);
 }
 
-.item .cover {
-    position: absolute;
-    top: 0;
-    left: 0;
-    width: 100%;
-    padding: 30px;
-    height: 100%;
-    background-color: rgba(70, 129, 218, 0.75);
-    transition: opacity 0.15s ease-in;
-    opacity: 0;
-    padding-top: 80px;
-    color: #fff;
-    text-shadow: 1px 1px 1px rgba(0, 0, 0, 0.15)
-}
-
-.item:hover .cover {
-    opacity: 1;
-}
-
-.item .name {
-    font-weight: bold;
-    margin-bottom: 8px;
-}
-
-.item .title {
-    text-transform: uppercase;
-    font-weight: bold;
-    color: #e4e6e7;
-    letter-spacing: 2px;
-    font-size: 13px;
-    margin-bottom: 20px;
-}
-
-.social {
-    font-size: 18px;
-}
-
-.social a {
-    color: inherit;
-    margin: 0 10px;
-    display: inline-block;
-    opacity: 0.7;
-}
-
-.social a:hover {
-    opacity: 1;
+@media (max-width: 400px) {
+    .carousel-inner{
+        padding: 0 50px 80px 50px;
+    }
 }
 
 /*Form section*/
