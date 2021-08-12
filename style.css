@@ -1,4 +1,5 @@
 @import url('https://fonts.googleapis.com/css2?family=Poppins:wght@200&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Roboto:wght@500&display=swap');
 
 * {
     font-family: 'Poppins', sans-serif;
@@ -137,7 +138,7 @@
         justify-content: center;
     }
 
-    .content h1{
+    .content h1 {
         font-size: 45px;
     }
 
@@ -191,7 +192,7 @@
 }
 
 .tech-image:hover {
-    transform: translate(10px,10px);
+    transform: translate(10px, 10px);
 }
 
 .tech-text {
@@ -214,7 +215,7 @@
 }
 
 /*Portfolio Section*/
-.carousel-inner{
+.carousel-inner {
     padding: 0 40px 80px 40px;
 }
 
@@ -225,7 +226,7 @@
 }
 
 @media (max-width: 400px) {
-    .carousel-inner{
+    .carousel-inner {
         padding: 0 50px 80px 50px;
     }
 }
@@ -269,4 +270,122 @@
 footer {
     margin-top: 50px;
     padding: 40px 30px 0 30px;
+}
+
+/*IT Services page*/
+.img-background{
+    width: 100%;
+    height: 400px;
+}
+
+.centered {
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    font-size: 35px;
+    font-family: 'Roboto', sans-serif;
+    color: #fff;
+}
+
+@media (max-width: 900px) {
+    .centered {
+        top: 30%;
+    }
+}
+
+@media (max-width: 400px) {
+    .centered {
+        top: 20%;
+    }
+}
+
+.black-section{
+    background-color: rgb(64, 64, 64);
+    opacity: 0.8;
+    padding: 30px;
+    color: #fff;
+}
+
+.heading2{
+    font-size: 30px;
+    font-family: 'Roboto', sans-serif;
+    font-weight: 900;
+}
+
+.content-3{
+    margin-top: 100px;
+}
+
+.img-it{
+    width: 100%;
+    height: 350px;
+}
+
+.grey{
+    background-color: 	#D3D3D3;
+    padding: 50px 100px;
+}
+
+.card-img{
+    margin-left: 70px;
+    width: 40%;
+    height: 130px;
+    border-radius: 50%;
+}
+
+.card{
+    height: 100%;
+}
+
+.heading3{
+    font-size: 20px;
+    font-family: 'Roboto', sans-serif;
+    font-weight: 700;
+}
+
+@media (max-width: 900px) {
+    .card-img{
+        margin-left: 100px;
+        width: 60px;
+        height: 100px;
+        border-radius: 50%;
+    }
+    .img-box{
+        height: 550px;
+    }
+}
+
+
+@media (max-width: 400px) {
+    .card-img{
+        margin-left: 30px;
+        width: 100px;
+        height: 100px;
+        border-radius: 50%;
+    }
+    .grey-border{
+        margin: 0 15px;
+    }
+    .img-box{
+        height: 300px;
+    }
+}
+
+.img-box:hover{
+    transform: scale(1.1);
+}
+
+.middle-text{
+    padding-top:15%;
+}
+
+/* Expert section */
+.expert{
+    margin-left: 10%;
+}
+
+.testimonial{
+    font-size: 20px;
+    font-weight: 300;
 }
