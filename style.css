@@ -206,14 +206,6 @@
     }
 }
 
-
-@media (max-width: 400px) {
-    .tech-image {
-        margin: 2px auto;
-        width: 30%;
-    }
-}
-
 /*Portfolio Section*/
 .carousel-inner {
     padding: 0 40px 80px 40px;
@@ -250,18 +242,6 @@
     color: #fff;
 }
 
-@media (max-width: 900px) {
-    .text {
-        margin: 10px 20px;
-    }
-}
-
-@media (max-width: 400px) {
-    .text {
-        margin: 10px 20px;
-    }
-}
-
 /*Footer*/
 .bg {
     background-color: #0E2431;
@@ -273,9 +253,10 @@ footer {
 }
 
 /*IT Services page*/
-.img-background{
+.img-background {
     width: 100%;
-    height: 400px;
+    height: 500px;
+    opacity: 0.5;
 }
 
 .centered {
@@ -283,109 +264,319 @@ footer {
     top: 50%;
     left: 50%;
     transform: translate(-50%, -50%);
-    font-size: 35px;
+    font-size: 40px;
     font-family: 'Roboto', sans-serif;
-    color: #fff;
+    color: #000;
 }
 
-@media (max-width: 900px) {
-    .centered {
-        top: 30%;
-    }
-}
-
-@media (max-width: 400px) {
-    .centered {
-        top: 20%;
-    }
-}
-
-.black-section{
-    background-color: rgb(64, 64, 64);
+.black-section {
+    background-color: rgba(46, 46, 46, 0.755);
+    margin-top: -100px;
     opacity: 0.8;
     padding: 30px;
     color: #fff;
 }
 
-.heading2{
+.heading2 {
     font-size: 30px;
     font-family: 'Roboto', sans-serif;
     font-weight: 900;
 }
 
-.content-3{
+.content-3 {
     margin-top: 100px;
 }
 
-.img-it{
+.img-it {
     width: 100%;
     height: 350px;
 }
 
-.grey{
-    background-color: 	#D3D3D3;
+.grey {
+    background-color: #ececec;
     padding: 50px 100px;
 }
 
-.card-img{
+.card-img {
     margin-left: 70px;
     width: 40%;
     height: 130px;
     border-radius: 50%;
 }
 
-.card{
+.card {
     height: 100%;
 }
 
-.heading3{
+.heading3 {
     font-size: 20px;
     font-family: 'Roboto', sans-serif;
     font-weight: 700;
 }
 
+.img-box:hover {
+    transform: scale(1.1);
+}
+
+.middle-text {
+    padding-top: 12%;
+}
+
+/* Expert section */
+.expert {
+    margin-left: 10%;
+}
+
+.testimonial {
+    font-size: 20px;
+    font-weight: 300;
+}
+
+/* Career Page */
+.img-background-career {
+    width: 100%;
+    height: 700px;
+    filter: blur(1px);
+}
+    
+.career-heading {
+    position: absolute;
+    top: 60%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    font-size: 55px;
+    font-family: 'Roboto', sans-serif;
+    color: #EE0025;
+    font-weight: 900;
+}
+
+.black-text {
+    color: #000;
+}
+
+.btn-c {
+    background-color: #7646E5;
+    border: none;
+    border-radius: 30px;
+    padding: 10px 20px;
+    -webkit-animation: bounce .3s infinite alternate;
+    -moz-animation: bounce .3s infinite alternate;
+    animation: bounce .3s infinite alternate;
+}
+
+.btn-c:hover {
+    background-color: #EE0025;
+}
+
+@-webkit-keyframes bounce {
+    to {
+        -webkit-transform: scale(1.2);
+    }
+}
+
+@-moz-keyframes bounce {
+    to {
+        -moz-transform: scale(1.2);
+    }
+}
+
+@keyframes bounce {
+    to {
+        transform: scale(1.2);
+    }
+}
+
+.career-icon {
+    color: #FFAB5E;
+    padding: 0 20px;
+}
+
+.c-content {
+    margin-left: 70px;
+}
+
+.h4-heading{
+    margin-left: 20px;
+}
+
+.img-background-career1 {
+    width: 100%;
+    height: 400px;
+    position: relative;
+}
+
+.center {
+    position: absolute;
+    margin: -400px 0px;
+    background-color: #55589aa3;
+    color: white;
+    padding-top: 30px;
+    height: 400px;
+    padding-left: 20px;
+}
+
+.c-content1{
+    margin: -60px 50px 10px 100px;
+}   
+
+.sign{
+    padding: 20px 0px;
+}
+
+.size{
+    font-size: 30px;
+    font-weight: 700;
+}
+
+.typewriter {
+    font-family: Courier, monospace;
+	display: inline-block;
+    margin: 100px 0 0 30px;
+}
+
+.typewriter-text {
+    display: inline-block;
+  	overflow: hidden;
+  	letter-spacing: 2px;
+ 	animation: typing 5s steps(30, end), blink .75s step-end infinite;
+    white-space: nowrap;
+    color: #EE0025;
+    font-size: 30px;
+    font-weight: 700;
+    border-right: 4px solid rgb(0, 0, 0);
+    box-sizing: border-box;
+}
+
+@keyframes typing {
+    from { 
+        width: 0% 
+    }
+    to { 
+        width: 100% 
+    }
+}
+
+@keyframes blink {
+    from, to { 
+        border-color: transparent 
+    }
+    50% { 
+        border-color: rgb(0, 0, 0); 
+    }
+}
+
+.employ{
+    background-color: #F5FAFF;
+    padding: 100px 50px;
+}
+
+.round{
+    border-radius: 50%;
+    height: 15%;
+    width: 15%;
+    margin: 10px;
+}
+
+.employ-center{
+    margin: 10px 0 0 100px;
+}
+
+.heading-career{
+    font-size: 40px;
+    color: #4071F4;
+    font-weight: bolder;
+}
+
+.career-icon1{
+    color: #EE0025;
+    padding: 0 20px;
+}
+
 @media (max-width: 900px) {
-    .card-img{
+    .text {
+        margin: 10px 20px;
+    }
+
+    .centered {
+        top: 30%;
+    }
+
+    .card-img {
         margin-left: 100px;
         width: 60px;
         height: 100px;
         border-radius: 50%;
     }
-    .img-box{
+
+    .img-box {
         height: 550px;
+    }
+    
+    .img-background-career {
+        height: 600px;
+    }
+
+    .img-background-career1{
+        height: 800px;
+    }
+    .center{
+        margin: -200px 0;
+        height: 800px;
     }
 }
 
-
 @media (max-width: 400px) {
-    .card-img{
+    .tech-image {
+        margin: 2px auto;
+        width: 30%;
+    }
+    
+    .text {
+        margin: 10px 20px;
+    }
+
+    .centered {
+        top: 20%;
+    }
+
+    .card-img {
         margin-left: 30px;
         width: 100px;
         height: 100px;
         border-radius: 50%;
     }
-    .grey-border{
+
+    .grey-border {
         margin: 0 15px;
     }
-    .img-box{
+
+    .img-box {
         height: 300px;
     }
-}
 
-.img-box:hover{
-    transform: scale(1.1);
-}
+    .img-background-career {
+        height: 600px;
+    }
 
-.middle-text{
-    padding-top:15%;
-}
+    .img-background-career1 {
+        height: 800px;
+    }
 
-/* Expert section */
-.expert{
-    margin-left: 10%;
-}
+    .center{
+        margin: -800px 0;
+        height: 800px;
+    }
 
-.testimonial{
-    font-size: 20px;
-    font-weight: 300;
+    .typewriter {
+        margin: -20px;
+    }
+
+    .round {
+        height: 10%;
+        width: 20%;
+        margin: 2px;
+    }
+    .employ-center{
+        margin: 10px 0 0 10px;
+    }
 }
